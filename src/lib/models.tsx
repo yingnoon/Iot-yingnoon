@@ -4,9 +4,8 @@ export interface Book {
   author: string;
   year: number;
   detail: string;
-  story: string;
-  classification: string;
-  is_published: boolean;
+  summary: string;
+  group: string;
 }
 
 export interface Menu {
