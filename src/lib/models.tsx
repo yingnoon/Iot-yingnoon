@@ -6,6 +6,7 @@ export interface Book {
   detail: string;
   summary: string;
   group: string;
+  is_published: boolean;
 }
 
 export interface Menu {
