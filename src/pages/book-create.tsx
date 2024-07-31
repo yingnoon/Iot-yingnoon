@@ -18,8 +18,8 @@ export default function BookCreatePage() {
       author: "",
       year: 2024,
       detail: "",
-      story: "",
-      classification: "",
+      summary: "",
+      group: "",
       is_published: false,
     },
 
@@ -28,8 +28,8 @@ export default function BookCreatePage() {
       author: isNotEmpty("กรุณาระบุชื่อผู้แต่ง"),
       year: isNotEmpty("กรุณาระบุปีที่พิมพ์หนังสือ"),
       detail: isNotEmpty("กรุณาระบุรายละเอียดหนังสือ"),
-      story: isNotEmpty("กรุณาระบุเรื่องย่อหนังสือ"),
-      classification: isNotEmpty("กรุณาระบุหมวดหมู่หนังสือ"),
+      summary: isNotEmpty("กรุณาระบุเรื่องย่อหนังสือ"),
+      group: isNotEmpty("กรุณาระบุหมวดหมู่หนังสือ"),
     },
   });
 
