@@ -44,7 +44,7 @@ export default function HomePage() {
           </p>
 
           <div>
-            <img src={profile} alt="bnkt" className="h-full w-full object-cover" />
+            <img src={profile} className="h-full w-full object-cover" />
           </div>
         </div>
       </section>
